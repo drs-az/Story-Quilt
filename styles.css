@@ -38,6 +38,13 @@ body {
   margin-bottom: 20px;
 }
 
+/* Reduce logo size on larger screens */
+@media (min-width: 768px) {
+  .logo {
+    width: 50%;
+  }
+}
+
 .hero h1 {
   font-size: 3rem;
   color: var(--color-heading);
